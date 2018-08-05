@@ -1,0 +1,161 @@
+.info_icon {
+    margin-left: 5px;
+}
+
+.caret {
+    margin-left: 0 !important;
+    margin-right: 10px;
+}
+
+.space {
+    display: inline-block;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: -0.1em;
+    color: white;
+}
+
+.contact {
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact a {
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Pagination */
+
+.pagination li {
+    text-align: center;
+}
+
+.pagination a {
+    transition: background-color .3s;
+    color: #ff2e00 !important;
+}
+
+.pagination .active span {
+    background-color: #ff2e00 !important;
+    border-color: #ff2e00 !important;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Pagination - END */
+
+/* Placeholder */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+
+:-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+}
+
+/* Placeholder - END */
+
+#message {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 10%;
+    bottom: 60px;
+}
+
+#message.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 3s;
+    animation: fadein 0.5s, fadeout 0.5s 3s;
+}
+
+#message.ok {
+    background-color: green;
+}
+
+#message.error {
+    background-color: red;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 60px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 60px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 60px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 60px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.media-body#comment {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.media-body h6 {
+    text-align: left;
+    color: darkgray;
+}
+
+.dropdown-menu li {
+    text-align: center;
+}
+
+.answer {
+    margin-right: 20px;
+}
+
+.answer h4 {
+    color: #d58512;
+}
