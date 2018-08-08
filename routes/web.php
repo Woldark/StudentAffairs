@@ -52,6 +52,7 @@ Route::group(['prefix' => 'management', 'middleware' => ['auth']], function () {
     Route::get('/quotes', 'Admin\QuoteController@index')->name('admin::quotes.index');
     Route::get('/quote/create', 'Admin\QuoteController@create')->name('admin::quote.create');
     Route::post('/quote/create', 'Admin\QuoteController@post')->name('admin::quote.create');
+    Route::post('/quote/edit{id}', 'Admin\QuoteController@edit')->name('admin::quote.edit');
     Route::get('/quote/delete/{id}', 'Admin\QuoteController@delete')->name('admin::quote.delete');
 });
 

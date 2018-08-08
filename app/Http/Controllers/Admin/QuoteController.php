@@ -50,4 +50,10 @@ class QuoteController
 		$message = "نقل قول " . $quote->author . " پاک شد";
 		return redirect('management/quotes')->with("message", $message);
 	}
+
+    public function edit($id)
+    {
+        $qoute = Quote::where("id", $id)->firstOrFail();
+        return view('admin.quote_edit')->withQoute($qoute);
+    }
 }
