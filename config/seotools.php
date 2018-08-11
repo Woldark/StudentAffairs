@@ -6,8 +6,8 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "آرش حاتمی", // set false to total remove
-            'description'  => 'برنامه نویس وب ، اندروید', // set false to total remove
+            'title'        => "دانشگاه ملایر", // set false to total remove
+            'description'  => 'امور دانشجویی', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => [
                 'آرش',

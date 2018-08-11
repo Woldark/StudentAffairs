@@ -2,7 +2,7 @@
 
 Auth::routes();
 
-Route::get('/', 'HomeController@coming_soon');
+Route::get('/', 'HomeController@main');
 
 Route::get('/test', function () {
     return view('test');

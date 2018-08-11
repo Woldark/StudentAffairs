@@ -28,16 +28,16 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function coming_soon()
+    public function main()
     {
-	    OpenGraph::setDescription('برنامه نویس وب ، اندروید');
-	    OpenGraph::setTitle('آرش حاتمی');
+	    OpenGraph::setDescription('امور دانشجویی');
+	    OpenGraph::setTitle('دانشگاه ملایر');
 	    OpenGraph::setUrl('http://arash-hatami.ir');
 	    OpenGraph::addProperty('type', 'articles');
 
-	    TwitterCard::setTitle('آرش حاتمی');
+	    TwitterCard::setTitle('دانشگاه ملایر');
 	    TwitterCard::setSite('@hatamiarash7');
 
-        return view('coming_soon.index');
+        return view('main.index');
     }
 }
