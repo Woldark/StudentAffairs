@@ -17,6 +17,9 @@
     <link href="{{ asset('main/css/iransans.css') }}" rel="stylesheet">
 </head>
 <body>
+<div id="particles-js"></div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app1.js"></script>
 <div class="wrapper">
     <div class="content">
         <header>
