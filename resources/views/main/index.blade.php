@@ -17,9 +17,6 @@
     <link href="{{ asset('main/css/iransans.css') }}" rel="stylesheet">
 </head>
 <body>
-<div id="particles-js"></div>
-<script type="text/javascript" src="particles.js"></script>
-<script type="text/javascript" src="app1.js"></script>
 <div class="wrapper">
     <div class="content">
         <header>
@@ -28,7 +25,7 @@
             <nav class="navigation">
                 <ul>
                     <li>
-                        <a href="/">خانه</a>
+                        <a href="#">خانه</a>
                     </li>
                     <li>
                         <a href="/">درباره ما</a>
@@ -58,5 +55,4 @@
 </div>
 <script type="text/javascript" src="{{ asset('main/js/bundle.js') }}"></script>
 </body>
-
 </html>
